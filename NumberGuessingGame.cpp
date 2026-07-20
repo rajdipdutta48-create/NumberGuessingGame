@@ -15,7 +15,8 @@ bool prime(int x) {
     return p;
 }
 int main() {
-    int n1 = 58, n2, p;
+    srand(time(0));
+    int n1 = rand(), n2, p;
     char n3;
     string str;
     cout << "Press Enter key for putting any input::" << endl;
